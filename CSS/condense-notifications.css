@@ -1,0 +1,104 @@
+/******************************************************************************\
+ *                    Web Client: Condense Favs and Boosts in Notifications   *
+\******************************************************************************/
+
+/* Set the containers to contain elements set with position:absolute */
+.notification-favourite,
+.notification-reblog,
+.notification-poll {
+	position: relative !important;
+}
+
+/* Condense and de-emphasize notifications for favourites, reblogs, and polls */
+.notification-favourite .notification__message, 
+.notification-reblog .notification__message, 
+.notification-poll .notification__message{
+	line-height: 100%;
+	font-size: 100%;
+	opacity: 0.5;
+	margin-left: 50px;
+}
+
+/* Adjust position of favorite icon to make more efficient use of space */
+.notification-favourite .notification__favourite-icon-wrapper, 
+.notification-reblog .notification__favourite-icon-wrapper, 
+.notification-poll .notification__favourite-icon-wrapper{
+	left: -16px;
+}
+
+/* Shifts user icon up to match smaller username text */
+.notification-favourite .account__avatar-overlay-overlay, 
+.notification-reblog .account__avatar-overlay-overlay, 
+.notification-poll .account__avatar-overlay-overlay{
+	bottom: 5px;
+}
+
+/* Forces shortening of display names to keep it all to one line */
+.notification-favourite .notification__message .notification__display-name, 
+.notification-reblog .notification__message .notification__display-name, 
+.notification-poll .notification__message .notification__display-name{
+	max-width: 130px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+/* Overrides larger min-height to make things extra smol */
+div.status {
+	min-height: 10px;
+}
+
+/* Adjusts position relative to avatar, uses more whitespace on the left */
+div.status.muted {
+	position: static !important;
+	padding-left: 10px !important;
+}
+
+/* Make the "Show More" button extra smol to fit in-line with text */
+div.status.muted .status__content__spoiler-link {
+	transform: scale(0.7);
+}
+
+/* Hides the action bar since it's mostly useless on these notifications */
+div.status.muted .display-name, 
+div.status.muted .account__avatar-overlay-base, 
+div.status.muted .attachment-list.compact, 
+div.status.muted .status__action-bar { 
+	display: none !important;
+} 
+
+/* Forces the account avatar container to be extra smol */
+div.status.muted .account__avatar-overlay,
+div.status.muted .account__avatar-overlay {
+	width: 24px !important;
+	height: 24px !important;
+}
+
+/* Forces the account avatar to be extra smol */
+div.status.muted .status__avatar {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+/* Force toot content to a couple of much smaller lines */
+div.status.muted .status__content p {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: none !important;
+  max-width: 95%;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+/* Show only the first paragraph of a status */
+div.status.muted .status__content p:first-child {
+	display: block !important;
+	max-height: 40px;
+}
+
+/* Hide the toot body if it has a CW */
+div.status.muted .status__content div {
+	display: none;
+}
