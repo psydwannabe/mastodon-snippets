@@ -1,0 +1,34 @@
+/******************************************************************************\
+ *                               Website: Hide Mastodon-Specific Components   *
+\******************************************************************************/
+/* Hide Masto Footer Components (Mastodon v2.2 - v2.7) */
+.landing-page__features__action,
+.landing-page__footer {
+	display: none;
+}
+
+/* Hide Masto "Developer" and "More" footer columns (Mastodon v2.2 - ) */
+.public-layout .footer .grid .column-1,
+.public-layout .footer .grid .column-4 {
+	display: none;
+}
+
+/* Hide the "What is Mastodon" header (Mastodon v2.2 - ) */
+.public-layout .footer .grid .column-2 h4 {
+	display: none;
+}
+
+/* Hide Masto version number (Mastodon v2.2 - )*/
+.public-layout .footer .grid .column-3 ul li:nth-child(2) {
+	display: none;
+}
+
+/* Move About Plush city over to right (Mastodon v2.2 - ) */
+.public-layout .footer .grid .column-3 {
+	grid-column: 5;
+}
+
+/* Shorten spacing between footer and body (Mastodon v2.8.0 - ) */
+.public-layout .landing {
+	margin-bottom: 0px
+}
