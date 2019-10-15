@@ -97,8 +97,3 @@ div.status.muted .status__content p:first-child {
 	display: block !important;
 	max-height: 40px;
 }
-
-/* Hide the toot body if it has a CW */
-div.status.muted .status__content div {
-	display: none;
-}
