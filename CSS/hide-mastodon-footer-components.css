@@ -26,9 +26,11 @@
 /* Move About Plush city over to right (Mastodon v2.2 - ) */
 .public-layout .footer .grid .column-3 {
 	grid-column: 5;
+	text-align: right;
 }
 
 /* Shorten spacing between footer and body (Mastodon v2.8.0 - ) */
 .public-layout .landing {
 	margin-bottom: 0px
 }
+
