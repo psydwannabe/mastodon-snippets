@@ -8,7 +8,7 @@
 	.st2{fill:url(#SVGID_2_);}
 	.st3{fill:#843735;}
 	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st5{fill:#FFFA8A;}
+	.st5{fill:#F4DC00;}
 	.st6{fill:none;stroke:#B4AC00;stroke-miterlimit:10;}
 	.st7{fill:none;stroke:#050505;stroke-miterlimit:10;}
 </style>
@@ -20,7 +20,7 @@
 		c1.8-3,4.3-6.7,2.2-10.5c-2.6-4.8-7.6-4-11.7-3.3c-12.1,2-22.8,7.4-32.8,14.2c-27.9,19-46.3,45.5-59.3,75.7
 		c-4.4,10.2-10.4,17.8-20,24.2C50.4,147,30.8,167.3,20.4,196.6z"/>
 	
-		<radialGradient id="SVGID_1_" cx="140.6141" cy="346.6694" r="26.4087" gradientTransform="matrix(0.7677 2.0381 -1.3218 0.4807 392.272 -201.8387)" gradientUnits="userSpaceOnUse">
+		<radialGradient id="SVGID_1_" cx="161.0566" cy="218.9823" r="26.3973" gradientTransform="matrix(0.7677 2.0381 1.3218 -0.4807 -371.094 28.4154)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0.2115" style="stop-color:#FEDECB"/>
 		<stop  offset="0.6148" style="stop-color:#FEDFCD;stop-opacity:0.4885"/>
 		<stop  offset="0.7609" style="stop-color:#FEE4D4;stop-opacity:0.3033"/>
@@ -31,7 +31,7 @@
 	<path class="st1" d="M62.7,306.4c-18.8,6.8-43.4-12.2-54.8-42.6s-5.5-60.6,13.4-67.4c18.8-6.8,43.4,12.2,54.8,42.6
 		S81.6,299.6,62.7,306.4z"/>
 	
-		<radialGradient id="SVGID_2_" cx="174.8801" cy="183.6133" r="33.5291" gradientTransform="matrix(2.17 0 0 1.8125 -144.7699 -77.2764)" gradientUnits="userSpaceOnUse">
+		<radialGradient id="SVGID_2_" cx="124.1889" cy="249.951" r="33.5376" gradientTransform="matrix(2.17 0 0 -1.8125 -34.7899 708.5361)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0.2115" style="stop-color:#FEDECB"/>
 		<stop  offset="0.6148" style="stop-color:#FEDFCD;stop-opacity:0.4885"/>
 		<stop  offset="0.7609" style="stop-color:#FEE4D4;stop-opacity:0.3033"/>
@@ -44,7 +44,7 @@
 		c-7.8,13.3-19.2,23.4-31.6,32.4c-7.8,5.8-16.2,10.9-26.6,17.8c65.2,15.4,113.8,47.3,130.8,113.3c1.9,5.3,2.2,8.5,2.8,12.9
 		c1.4,13.9,0.3,15.1-0.9,35.6c-2.6,35.2-41.5,55.6-80,61.5c-2.1,0.3-17.5,3.2-47.5,3.2c-53.4,1.4-58.6,1.4-146.3,1.4
 		c-52.4-1.4-75.3-4.1-77.1-4.5c-38-6.7-59.4-28.6-67.2-66.1c-0.2-0.8,0-0.1-0.6-2.1C0.7,252.6,0,231,0,230.5c0-4.2,1.2-23,2.5-26.8
-		c8.6-36.3,29.9-64.1,60.5-85c8-5.4,13.1-11.8,17.2-20.5c18.1-38.9,42.6-72.6,83.6-91.2c6.4-2.9,13.2-5.4,20.1-6.5
+		c8.6-36.3,29.9-64.1,60.5-85c8-5.4,13.1-11.8,17.2-20.5C98.3,59.3,122.8,25.6,163.8,7c6.4-2.9,13.2-5.4,20.1-6.5
 		C205.1-2.9,216.7,11.8,217.1,33.2 M20.4,196.6c-7.6,21.8-5,41.5-1,62.7c4.7,25.3,19.6,41,45.4,46.3c43.9,8.7,88.3,3.2,132.5,4.1
 		c26.4,0,52.8,0,79.2,0c29.1,1.2,58.2,1.4,85.9-9.1c29.2-11.1,42.9-31.5,42.4-62.2c-0.9-52.3-39.1-97.9-96.3-115.6
 		c-30.6-9.5-62-11.4-94.3-11.2c46.4-16.9,93.7-32.1,122.1-76.9c-10.2-8.1-19.9-6.7-28.9-6.5c-28.9,0.6-56.2,7.9-81.6,21.6
@@ -62,7 +62,7 @@
 <path class="st4" d="M107.3,52.5"/>
 <g>
 	
-		<image style="overflow:visible;opacity:0.95;" width="419" height="152" xlink:href="bunhdhalo.svg-glow.png"  transform="matrix(1 0 0 1 -11.3562 25.5205)">
+		<image style="overflow:visible;enable-background:new    ;" width="419" height="152" xlink:href="bunhdhalo.svg-glow.png"  transform="matrix(1 0 0 1 -11.3562 25.5205)">
 	</image>
 	<g>
 		<path class="st5" d="M333.4,66.4c16.5,5.7,45.1,16.4,43.4,22.2c-7.3,24.2-98.6,57.9-193.4,57.9S5.9,93.9,22.1,76.7
