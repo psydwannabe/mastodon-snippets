@@ -13,6 +13,14 @@ Please review the CSS file for more information on how this is accomplished.
 
 ![A screenshot of the Mastodon notifications column with these CSS styles in place. It shows the condensed favourite and boost notifications as well as the de-emphasized poll notifications in contrast to a normal mention in Mastodon v2.8.3. ](https://github.com/psydwannabe/mastodon-snippets/raw/master/CSS/condense-notifications-screenshot.jpg)
 
+## [Embiggen Emojos](https://github.com/psydwannabe/mastodon-snippets/blob/master/CSS/embiggen-emojos.css)
+This snippet does exactly what it says on the tin. It makes the emojos much easier to read!
+
+**Compatible With:** &nbsp;&nbsp;&nbsp; Mastodon v2.0 -- v3.0.1
+
+![A gif showing the body of a Lorem Ipusum toot with emojos sprinkled in it, as well as the Emojo browser. The gif has two frames- in one, the emojos are smol like normal. In the other, the emojos are hueg and big and stronk and besterest.](https://raw.githubusercontent.com/psydwannabe/mastodon-snippets/develop/CSS/embiggen-emojos-screenshots.gif)
+
+
 ## [Hide Mastodon Footer Components](https://github.com/psydwannabe/mastodon-snippets/blob/master/CSS/hide-mastodon-footer-components.css)
 This snippet removes the various Mastodon developer advertisements in the footer of the Mastodon public facing web pages (/about, /more, User Profiles).  I created this because I don't like advertising the exact version of server software my instance is running for security reasons. It also removes the developer-specific components that most users have no interest in, which cleans up the design and reduces confusion for less technical users.
 

@@ -1,0 +1,19 @@
+/******************************************************************************\
+ *                                              Web Client: Embiggen Emojos   *
+\******************************************************************************/
+
+/* Emojos in the "reply" box that appears above the status update text box when 
+ * you click the "reply" button on a toot  */
+.reply-indicator__content .emojione, 
+
+/* Emojos in toots across the rest of the entire web client */
+.status__content .emojione {
+	width: 25px;	/* Stock is 20px */
+	height: 25px;	/* Stock is 20px */
+}
+
+/* Emojos in the "Emoji Mart" (pop-out from emoji button) in compose window */
+.emoji-mart-category .emoji-mart-emoji span {
+	width: 33px !important; /* stock: 20px; defined inline */
+	height: 33px !important; /* stock: 20px; defined inline */
+}
